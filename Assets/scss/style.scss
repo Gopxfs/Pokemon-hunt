@@ -8,3 +8,13 @@ $lightGrey: #d3d3d3;
   font-weight: normal;
   src: url(../fonts/COCOGOOSE.woff);
 }
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+.desktop {
+  display: contents;
+}
+}
