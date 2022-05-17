@@ -156,6 +156,7 @@ footer {
   align-items: center;
   flex-direction: column;
   background-color: $black;
+  padding-bottom: 25px;
 
   h2 {
     font-family: $lato;
@@ -167,7 +168,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
     list-style-type: none;
     gap: 50px;
 
@@ -175,7 +176,7 @@ footer {
       text-decoration: none;
 
       img {
-        height: 150px;
+        height: 75px;
       }
     }
   }
@@ -184,13 +185,20 @@ footer {
 #copyright {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 25px;
-  margin-left: 45px;
-  margin-right: 45px;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
   img {
     height: 55px;
+  }
+
+  p {
+    font-family: $lato;
+    font-size: 13px;
   }
 
 }
