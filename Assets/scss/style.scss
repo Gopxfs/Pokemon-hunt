@@ -1,6 +1,8 @@
+// Variables
 $orange: #ec5242;
 $black: #272a31;
 $lightGrey: #d3d3d3;
+$lato: Lato, sans-serif;
 
 @font-face {
   font-family: cocogoose;
@@ -9,12 +11,129 @@ $lightGrey: #d3d3d3;
   src: url(../fonts/COCOGOOSE.woff);
 }
 
+// Global
+body {
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+  }
+}
+
 .desktop {
   display: none;
 }
 
+// Nav and its elements
+#nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#hamburger {
+  border: 0;
+  margin: 10px;
+  background: none;
+
+  img {
+    height: 25px;
+  }
+}
+
+// Main section
+// Welcome page
+main {
+  margin-top: 50px;
+  }
+
+#welcome-page {
+  background: url(../images/backgrounds/welcome-background.png);
+}
+
+/*
+-------------------DESKTOP VERSION-------------------
+*/
 @media (min-width: 768px) {
+  main {
+    margin-top: 115px;
+  }
+
 .desktop {
   display: contents;
 }
+
+.mobile {
+  display: none;
+}
+
+// Nav and its elements
+#header {
+  display: flex;
+  background-color: $black;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    align-self: center;
+    width: 100%;
+    max-width: 1300px;
+    gap: 2.5%;
+    margin: 5px;
+    margin-right: 20px;
+
+    li a {
+      font-family: $lato;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  max-width: 1366px;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+
+    li a {
+      color: black;
+      font-family: $lato;
+    }
+  }
+}
+
+#navbar-logo {
+  color: black;
+
+  img {
+    height: 55px;
+    margin-left: 15px;
+  }
+}
+
+#navbar-project {
+  color: $orange !important;
+  margin-right: 20px;
+  padding: 10px;
+  border: $orange 5px solid;
+}
+
 }
