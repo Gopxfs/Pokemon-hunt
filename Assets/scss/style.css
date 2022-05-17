@@ -52,6 +52,13 @@ main {
 }
 
 #welcome-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: url(../images/backgrounds/welcome-background.png);
 }
 
@@ -244,6 +251,72 @@ footer {
   font-size: 13px;
 }
 
+/* About page
+   Welcome section */
+.centered {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#welcome-contact {
+  font-family: Lato, sans-serif;
+  color: #272a31;
+  text-align: center;
+  max-width: 400px;
+  padding-bottom: 25px;
+}
+
+#welcome-contact a {
+  font-weight: 600;
+  color: #272a31;
+  text-decoration: underline;
+}
+
+/* Logo */
+#logo-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#logo-section * {
+  font-family: Lato, sans-serif;
+  color: #272a31;
+}
+
+#logo-section h2 {
+  margin-bottom: 10px;
+}
+
+#logo-section p {
+  margin-top: 0;
+  max-width: 350px;
+  text-align: center;
+}
+
+#logo-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: #d3d3d3 1px solid;
+  width: 90%;
+  max-width: 550px;
+  margin: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo-section div img {
+  padding: 25px;
+}
+
+/* See our past events */
 /*
 -------------------DESKTOP VERSION-------------------
 */
