@@ -54,6 +54,124 @@ main {
   background: url(../images/backgrounds/welcome-background.png);
 }
 
+#welcome-subtitle {
+  font-family: $lato;
+  font-size: 18px;
+  color: $orange;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+#welcome-title {
+  font-family: cocogoose, sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: $orange;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#welcome-description {
+  font-family: $lato;
+  line-height: 25px;
+  background-color: rgb(245, 245, 245);
+  color: $black;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+#welcome-date { 
+  font-family: cocogoose;
+  font-weight: 300;
+  color: $black;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+#welcome-place {
+  font-family: $lato;
+  margin-left: 10px;
+  color: $black;
+  margin-top: 0;
+  padding-bottom: 45px;
+}
+
+// Main program
+#main-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../images/backgrounds/main-program-background.png);
+  background-size: 30px 30px;
+  background-color: $black;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    background-color: #d3d3d323;
+
+    h3 {
+      color: $orange;
+    }
+
+    p {
+      color: #fff;
+    }
+  }
+
+  a {
+    font-family: $lato;
+    color: #fff;
+    margin-top: 35px;
+    background-color: #ec5242;
+    padding: 25px;
+    margin-bottom: 35px;
+  }
+}
+
+.orange-line {
+  width: 50px;
+  border-top: $orange 2px solid;
+  margin-bottom: 30px;
+}
+
+// Footer
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#partners {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $black;
+}
+
+#copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+
+  img {
+    height: 55px;
+  }
+
+}
+
 /*
 -------------------DESKTOP VERSION-------------------
 */
@@ -120,13 +238,9 @@ main {
   }
 }
 
-#navbar-logo {
-  color: black;
-
-  img {
+#navbar-logo img {
     height: 55px;
     margin-left: 15px;
-  }
 }
 
 #navbar-project {
@@ -136,4 +250,11 @@ main {
   border: $orange 5px solid;
 }
 
+// Main section
+// Welcome page
+
+
+// Main program
+
+//Footer
 }
