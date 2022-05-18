@@ -60,6 +60,8 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   background: url(../images/backgrounds/welcome-background.png);
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 #welcome-subtitle {
@@ -130,7 +132,29 @@ main {
   margin-bottom: 10px;
 }
 
-#main-program div {
+#main-program a {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  margin-top: 35px;
+  background-color: #ec5242;
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+#programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#programs div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,37 +171,28 @@ main {
   margin-bottom: 10px;
 }
 
-#main-program div * {
+#programs div * {
   font-family: Lato, sans-serif;
   padding: 20px;
 }
 
-#main-program div img {
+#programs div img {
   min-width: 60px;
   max-width: 60px;
 }
 
-#main-program div h3 {
+#programs div h3 {
   font-size: 20px;
   color: #ec5242;
   min-width: 58px;
   max-width: 58px;
 }
 
-#main-program div p {
+#programs div p {
   font-size: 16px;
   line-height: 20px;
   color: #d3d3d3;
   padding-right: 8px;
-}
-
-#main-program a {
-  font-family: Lato, sans-serif;
-  color: #fff;
-  margin-top: 35px;
-  background-color: #ec5242;
-  padding: 25px;
-  margin-bottom: 35px;
 }
 
 .orange-line {
@@ -466,6 +481,10 @@ footer {
   }
   /* Main section 
    Welcome page */
+  #welcome-page {
+    padding-top: 50px;
+    padding-bottom: 88px;
+  }
   #welcome-title {
     font-size: 55px;
     margin-left: 16%;
@@ -493,6 +512,56 @@ footer {
     margin-right: 25%;
   }
   /* Main program */
+  #programs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 5px;
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #programs div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 220px;
+    width: 230px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #programs div * {
+    font-family: Lato, sans-serif;
+    padding: 0;
+    width: auto;
+  }
+  #programs div img {
+    min-width: auto;
+    max-width: auto;
+  }
+  #programs div h3 {
+    text-align: center;
+    min-width: 80px;
+    max-width: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #programs div p {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 88px;
+    width: 90%;
+    text-align: center;
+  }
   /* Footer */
 }
 /*# sourceMappingURL=style.css.map */

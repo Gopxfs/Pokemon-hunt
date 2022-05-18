@@ -54,6 +54,8 @@ main {
   display: flex;
   flex-direction: column;
   background: url(../images/backgrounds/welcome-background.png);
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 #welcome-subtitle {
@@ -116,6 +118,21 @@ main {
     margin-bottom: 10px;
   }
 
+  a {
+    font-family: $lato;
+    color: #fff;
+    margin-top: 35px;
+    background-color: #ec5242;
+    padding: 25px;
+    margin-bottom: 35px;
+  }
+}
+
+#programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   div {
     display: flex;
     flex-direction: row;
@@ -148,15 +165,6 @@ main {
       color: $lightGrey;
       padding-right: 8px;
     }
-  }
-
-  a {
-    font-family: $lato;
-    color: #fff;
-    margin-top: 35px;
-    background-color: #ec5242;
-    padding: 25px;
-    margin-bottom: 35px;
   }
 }
 
@@ -384,6 +392,11 @@ footer {
 
 /* Main section 
    Welcome page */
+#welcome-page {
+  padding-top: 50px;
+  padding-bottom: 88px;
+}
+
 #welcome-title {
   font-size: 55px;
   margin-left: 16%;
@@ -416,6 +429,52 @@ footer {
 }
 
 /* Main program */
+#main-program {
+}
+
+#programs {
+  flex-direction: row;
+  gap: 5px;
+  width: 90%;
+  justify-content: center;
+
+  div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 230px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    * {
+      font-family: $lato;
+      padding: 0;
+      width: auto;
+    }
+
+    img {
+      min-width: auto;
+      max-width: auto;
+    }
+
+    h3 {
+      text-align: center;
+      min-width: 80px;
+      max-width: 80px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 88px;
+      width: 90%;
+      text-align: center;
+    }
+  }
+}
 
 /* Footer */
 }
