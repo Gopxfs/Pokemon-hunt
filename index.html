@@ -1,14 +1,145 @@
 <!DOCTYPE html>
-<head>
-  <meta charset = "UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="Assets/scss/style.css">
-  <title>Pokemon Hunt</title>
-</head>
-<body>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Assets/scss/style.css">
+        <title>Pokemon Hunt</title>
+    </head>
 
-</body>
+    <body>
+        <nav id="nav">  
+            <div id="header" class="desktop">
+                <ul>
+                    <li> <a href="#">FB</a> </li>
+                    <li> <a href="#">TT</a> </li>  
+                    <li> <a href="#">English</a> </li>
+                    <li> <a href="#">My Page</a> </li>
+                    <li> <a href="#">Logout</a> </li>
+                </ul>
+            </div>
+      
+            <div id="navbar">
+                <button id="hamburger" class ="mobile" type="button">
+                    <img src="Assets/images/icons/hamburger.png" alt="hamburger icon">
+                </button>
+                <a href="index.html" id="navbar-logo"  class="desktop">
+                    <img src="Assets/images/icons/logo.png" alt="Poke Hunt logo" >
+                </a>
+                <ul class="desktop">
+                    <li> <a href="about.html"> About </a> </li>
+                    <li> <a href="#"> Program </a> </li>
+                    <li> <a href="#"> Join </a> </li>
+                    <li> <a href="#"> Sponsor </a> </li>
+                    <li> <a href="#"> News </a> </li>
+                    <li> <a id="navbar-project" href="index.html"> POKEMON HUNT </a> </li>
+                </ul>
+            </div>    
+        </nav>
+    
+        <main>
+            <section id="welcome-page">
+                <p id="welcome-subtitle"> Welcome back! </p>
+                <h1 id="welcome-title"> POKEMON HUNT 2022 EDITION </h1>
+                <div id="welcome-description">
+                    An amazing event where you can find new strategies, pokemons, 
+                    friends and tools to improve yourself as a pokemon trainer!
+                </div>
+                <h2 id="welcome-date"> 2022.05.17(MON) ~ 19(WED) </h2>
+                <p id="welcome-place"> @ Ilex Forest, nearby Goldenrod City </p>
+            </section>
+
+            <section id="main-program">
+                <h2>
+                    Main Program
+                </h2>
+
+                <span class="orange-line"></span>
+                <div id="programs">
+                    <div>
+                        <img src="Assets/images/icons/hunt.png" alt=" icon">
+                        <h3>
+                            Hunt
+                        </h3>
+                        <p>
+                            Find and catch a vast variety of pokemons from all over the world.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="Assets/images/icons/tools.png" alt=" icon">
+                        <h3>
+                            Tools
+                        </h3>
+                        <p>
+                            We will provide the best tools and supplies, just your skill matter.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="Assets/images/icons/network.png" alt=" icon">
+                        <h3>
+                            Network
+                        </h3>
+                        <p>
+                            Meet experienced trainers from different regions and cultures.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="Assets/images/icons/badge.png" alt=" icon">
+                        <h3>
+                            Badge
+                        </h3>
+                        <p>
+                            Achieve and add our exclusive event badge to your collection.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <img src="Assets/images/icons/food.png" alt=" icon">
+                        <h3>
+                            Food
+                        </h3>
+                        <p>
+                            Experience our region's cooking for free during the whole event.
+                        </p>
+                    </div>
+                </div>
+
+                <a href="#" id="main-anchor" class="mobile"> Join Pokemon Hunt 2022 </a>
+                <a href="#" id="main-anchor-desktop" class="desktop"> SEE THE WHOLE PROGRAM </a>
+                <hr class="underline desktop">
+            </section>
+
+            <section id="featured-speakers"></section>
+        </main>
+
+        <footer>
+            <div id="partners">
+                <h2> Partners </h2>
+                 
+                <span class="orange-line"></span>
+
+                <ul>
+                    <li> <a href="#"> <img src="Assets/images/partners/macro-cosmos.png" alt="Devon corp logo"> </a> </li>
+                    <li> <a href="#"> <img src="Assets/images/partners/devon-corp.png" alt="Silph company logo"> </a> </li>
+                    <li> <a href="#"> <img src="Assets/images/partners/macro-cosmos.png" alt=" logo"> </a> </li>
+                    <li> <a href="#"> <img src="Assets/images/partners/silph-company.png" alt=" logo"> </a> </li>
+                    <li> <a href="#"> <img src="Assets/images/partners/macro-cosmos.png" alt=" logo"> </a> </li>
+                </ul>
+            </div>
+
+            <div id="copyright">
+                <a href="index.html">
+                    <img src="Assets/images/icons/logo.png" alt="Poke Hunt logo" >
+                </a>
+                <p>
+                     2022 Pokemon Hunt. Copyrights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
