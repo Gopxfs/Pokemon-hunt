@@ -9,12 +9,9 @@ const starName = [];
 const starAbout = [];
 const starLine = [];
 const starDescription = [];
-featuredStars.innerHTML = 'Featured Stars';
-// Adding id/classes
-starAbout.id = 'star-about';
-starDescription.id = 'star-description';
+// Setting main elements
+featuredTitle.innerHTML = 'Featured Stars';
 orangeLine.classList.add('orange-line');
-// Appending children
 featuredStars.appendChild(featuredTitle);
 featuredStars.appendChild(orangeLine);
 // Creating an array of objects to store stars data
@@ -67,6 +64,9 @@ for (let i = 0; i < 6; i += 1) {
   starLine[i] = document.createElement('span');
   starDescription[i] = document.createElement('p');
   starLine[i].classList.add('grey-line');
+  // Giving classes
+  starAbout[i].classList.add('star-about');
+  starDescription[i].classList.add('star-description');
   // Appending
   featuredStars.appendChild(starDiv[i]);
   starDiv[i].appendChild(starImage[i]);
