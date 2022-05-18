@@ -232,6 +232,24 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background: url(/Assets/images/featured-stars/pokeball-background.png);
+  background-size: 50px 50px;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  margin-top: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#featured-stars div img {
+  height: 115px;
+  width: 115px;
+  margin: 20px;
+  margin-right: 4px;
 }
 
 #featured-stars div div {
@@ -242,20 +260,34 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 0;
+  background: none;
 }
 
 #featured-stars div div * {
   font-family: Lato, sans-serif;
+  margin: 0;
 }
 
 #featured-stars div div h3 {
+  font-weight: 800;
   color: #272a31;
-  margin-bottom: 0;
+  margin-top: 4px;
 }
 
-.star-about {
+#featured-stars div div .star-about {
   font-style: italic;
   color: #ec5242;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#featured-stars div div .star-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #272a31;
+  margin-top: 10px;
 }
 
 .grey-line {
@@ -718,6 +750,7 @@ footer {
     width: 203px;
     margin: 0;
   }
+  /* Featured stars */
   /* Footer */
   #partners {
     padding-top: 25px;
