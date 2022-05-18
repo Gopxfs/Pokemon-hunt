@@ -17,40 +17,40 @@ featuredStars.appendChild(orangeLine);
 // Creating an array of objects to store stars data
 const starData = [
   {
-    name: '1',
+    name: 'Name1',
     image: '',
-    about: 'a1',
-    description: 'd1',
+    about: 'About1',
+    description: 'Description1',
   },
   {
-    name: '2',
+    name: 'Name2',
     image: '',
-    about: 'a2',
-    description: 'd2',
+    about: 'About2',
+    description: 'Description2',
   },
   {
-    name: '3',
+    name: 'Name3',
     image: '',
-    about: 'a3',
-    description: 'd3',
+    about: 'About3',
+    description: 'Description3',
   },
   {
-    name: '4',
+    name: 'Name4',
     image: '',
-    about: 'a4',
-    description: 'd4',
+    about: 'About4',
+    description: 'Description4',
   },
   {
-    name: '5',
+    name: 'Name5',
     image: '',
-    about: 'a5',
-    description: 'd5',
+    about: 'About5',
+    description: 'Description5',
   },
   {
-    name: '6',
+    name: 'Name6',
     image: '',
-    about: 'a6',
-    description: 'd6',
+    about: 'About6',
+    description: 'Description6',
   },
 ];
 // A for loop to set star elements i times
@@ -63,9 +63,9 @@ for (let i = 0; i < 6; i += 1) {
   starAbout[i] = document.createElement('p');
   starLine[i] = document.createElement('span');
   starDescription[i] = document.createElement('p');
-  starLine[i].classList.add('grey-line');
   // Giving classes
   starAbout[i].classList.add('star-about');
+  starLine[i].classList.add('grey-line');
   starDescription[i].classList.add('star-description');
   // Appending
   featuredStars.appendChild(starDiv[i]);
