@@ -242,8 +242,30 @@ footer {
   align-items: center;
 }
 
-#welcome-contact {
+#about-title {
+  font-family: cocogoose, sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: $orange;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#about-description {
   font-family: $lato;
+  line-height: 28px;
+  background-color: rgb(245, 245, 245);
+  color: $black;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+#about-contact {
+  font-family: $lato;
+  line-height: 28px;
   color: $black;
   text-align: center;
   max-width: 400px;
@@ -261,6 +283,7 @@ footer {
 #logo-section {
   display: flex;
   flex-direction: column;
+  margin-top: 35px;
 
   * {
     font-family: $lato;
@@ -272,6 +295,7 @@ footer {
   }
 
   p {
+    line-height: 23px;
     margin-top: -15px;
     max-width: 350px;
     text-align: center;
@@ -295,7 +319,9 @@ footer {
 #past-events {
   display: flex;
   flex-direction: column;
+  margin-top: 25px;
   padding-bottom: 35px;
+  border-top: $lightGrey 1px solid;
 
   * {
     font-family: $lato;
@@ -303,6 +329,7 @@ footer {
   }
   
   h2 {
+    margin-top: 30px;
     margin-bottom: 10px;
   }
 
@@ -499,4 +526,13 @@ footer {
   padding-bottom: 45px;
 }
 
+/* About */
+#about-title {
+  margin-top: 50px;
+}
+
+#about-description {
+  min-width: 650px;
+  width: 50%;
+}
 }

@@ -301,15 +301,37 @@ footer {
           align-items: center;
 }
 
-#welcome-contact {
+#about-title {
+  font-family: cocogoose, sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: #ec5242;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#about-description {
   font-family: Lato, sans-serif;
+  line-height: 28px;
+  background-color: whitesmoke;
+  color: #272a31;
+  padding: 15px;
+  margin: 10px;
+  border: #fff solid;
+}
+
+#about-contact {
+  font-family: Lato, sans-serif;
+  line-height: 28px;
   color: #272a31;
   text-align: center;
   max-width: 400px;
   padding-bottom: 25px;
 }
 
-#welcome-contact a {
+#about-contact a {
   font-weight: 600;
   color: #272a31;
   text-decoration: underline;
@@ -325,6 +347,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 35px;
 }
 
 #logo-section * {
@@ -337,6 +360,7 @@ footer {
 }
 
 #logo-section p {
+  line-height: 23px;
   margin-top: -15px;
   max-width: 350px;
   text-align: center;
@@ -368,7 +392,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 25px;
   padding-bottom: 35px;
+  border-top: #d3d3d3 1px solid;
 }
 
 #past-events * {
@@ -377,6 +403,7 @@ footer {
 }
 
 #past-events h2 {
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -584,6 +611,14 @@ footer {
   #partners {
     padding-top: 25px;
     padding-bottom: 45px;
+  }
+  /* About */
+  #about-title {
+    margin-top: 50px;
+  }
+  #about-description {
+    min-width: 650px;
+    width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
