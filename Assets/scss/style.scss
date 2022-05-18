@@ -112,6 +112,7 @@ main {
   background: url(../images/backgrounds/main-program-background.png);
   background-size: 30px 30px;
   background-color: $black;
+  padding: 15px;
 
   h2 {
     color: #fff;
@@ -430,13 +431,15 @@ footer {
 
 /* Main program */
 #main-program {
+  padding: 35px;
 }
 
 #programs {
   flex-direction: row;
   gap: 5px;
-  width: 90%;
+  width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
 
   div {
     flex-direction: column;

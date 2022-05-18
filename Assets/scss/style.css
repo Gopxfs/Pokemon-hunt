@@ -125,6 +125,7 @@ main {
   background: url(../images/backgrounds/main-program-background.png);
   background-size: 30px 30px;
   background-color: #272a31;
+  padding: 15px;
 }
 
 #main-program h2 {
@@ -512,16 +513,21 @@ footer {
     margin-right: 25%;
   }
   /* Main program */
+  #main-program {
+    padding: 35px;
+  }
   #programs {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     gap: 5px;
-    width: 90%;
+    width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #programs div {
     -webkit-box-orient: vertical;
