@@ -193,6 +193,7 @@ footer {
 
   h2 {
     font-family: $lato;
+    font-weight: 400;
     color: $lightGrey;
     margin-bottom: 10px;
   }
@@ -216,7 +217,8 @@ footer {
   }
 }
 
-#copyright {
+#copyright,
+#about-copyright {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -359,6 +361,16 @@ footer {
       width: 90%;
       filter: $orange(50%) ;
     }
+  }
+}
+
+#about-copyright {
+  background-color: $black;
+  margin: 0;
+  padding: 50px;
+
+  p {
+    color: #fff;
   }
 }
 
@@ -555,10 +567,13 @@ footer {
 
 #about-description {
   min-width: 650px;
+  text-align: center;
   width: 50%;
 }
 
 #past-events {
+  margin-bottom: 66px;
+
   div {
     flex-direction: row;
     width: 100%;

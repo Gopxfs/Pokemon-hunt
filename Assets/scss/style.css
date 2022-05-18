@@ -232,6 +232,7 @@ footer {
 
 #partners h2 {
   font-family: Lato, sans-serif;
+  font-weight: 400;
   color: #d3d3d3;
   margin-bottom: 10px;
 }
@@ -264,7 +265,8 @@ footer {
   height: 75px;
 }
 
-#copyright {
+#copyright,
+#about-copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,11 +286,13 @@ footer {
   margin-bottom: 40px;
 }
 
-#copyright img {
+#copyright img,
+#about-copyright img {
   height: 55px;
 }
 
-#copyright p {
+#copyright p,
+#about-copyright p {
   font-family: Lato, sans-serif;
   font-size: 13px;
 }
@@ -448,6 +452,16 @@ footer {
   width: 90%;
   -webkit-filter: #ec5242 50%;
           filter: #ec5242 50%;
+}
+
+#about-copyright {
+  background-color: #272a31;
+  margin: 0;
+  padding: 50px;
+}
+
+#about-copyright p {
+  color: #fff;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -655,7 +669,11 @@ footer {
   }
   #about-description {
     min-width: 650px;
+    text-align: center;
     width: 50%;
+  }
+  #past-events {
+    margin-bottom: 66px;
   }
   #past-events div {
     -webkit-box-orient: horizontal;
