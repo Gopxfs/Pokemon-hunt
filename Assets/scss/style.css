@@ -563,5 +563,9 @@ footer {
     text-align: center;
   }
   /* Footer */
+  #partners {
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
