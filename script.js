@@ -2,6 +2,7 @@
 const featuredStars = document.getElementById('featured-stars')
 const featuredTitle = document.createElement('h2');
 const orangeLine = document.createElement('span');
+const starSection = document.createElement('div');
 const starDiv = [];
 const starImage = [];
 const starInformation = [];
@@ -14,6 +15,7 @@ featuredTitle.innerHTML = 'Featured Stars';
 orangeLine.classList.add('orange-line');
 featuredStars.appendChild(featuredTitle);
 featuredStars.appendChild(orangeLine);
+featuredStars.appendChild(starSection);
 // Creating an array of objects to store stars data
 const starData = [
   {
@@ -26,7 +28,7 @@ const starData = [
     name: 'Professor Oak',
     image: '/Assets/images/featured-stars/professor-oak.png',
     about: 'Pokemon trainer, professor and researcher',
-    description: 'Oak studies the human-pokemon relationship.',
+    description: 'Oak studies the human-pokemon relationship and help new trainers start a pokemon journey.',
   },
   {
     name: 'Pikachu',
@@ -68,7 +70,7 @@ for (let i = 0; i < 6; i += 1) {
   starLine[i].classList.add('grey-line');
   starDescription[i].classList.add('star-description');
   // Appending
-  featuredStars.appendChild(starDiv[i]);
+  starSection.appendChild(starDiv[i]);
   starDiv[i].appendChild(starImage[i]);
   starDiv[i].appendChild(starInformation[i]);
   starInformation[i].appendChild(starName[i]); 

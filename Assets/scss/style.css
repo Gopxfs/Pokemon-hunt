@@ -228,12 +228,20 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#featured-stars div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   background: url(/Assets/images/featured-stars/pokeball-background.png);
   background-size: 50px 50px;
   background-position: absolute;
@@ -245,14 +253,14 @@ main {
   margin-right: 15px;
 }
 
-#featured-stars div img {
+#featured-stars div div img {
   height: 115px;
   width: 115px;
   margin: 20px;
   margin-right: 4px;
 }
 
-#featured-stars div div {
+#featured-stars div div div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,25 +272,25 @@ main {
   background: none;
 }
 
-#featured-stars div div * {
+#featured-stars div div div * {
   font-family: Lato, sans-serif;
   margin: 0;
 }
 
-#featured-stars div div h3 {
+#featured-stars div div div h3 {
   font-weight: 800;
   color: #272a31;
   margin-top: 4px;
 }
 
-#featured-stars div div .star-about {
+#featured-stars div div div .star-about {
   font-style: italic;
   color: #ec5242;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-#featured-stars div div .star-description {
+#featured-stars div div div .star-description {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -751,6 +759,21 @@ footer {
     margin: 0;
   }
   /* Featured stars */
+  #featured-stars div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #featured-stars div div {
+    max-width: 450px;
+    background: url(/Assets/images/featured-stars/pokeball-background-thin.png);
+    background-size: 50px 50px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+  }
   /* Footer */
   #partners {
     padding-top: 25px;
