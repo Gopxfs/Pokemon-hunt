@@ -396,7 +396,7 @@ footer {
     margin-top: 115px;
   }
   .desktop {
-    display: contents;
+    display: block;
   }
   .mobile {
     display: none;
