@@ -129,17 +129,9 @@ main {
 }
 
 #main-program h2 {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-#main-program a {
   font-family: Lato, sans-serif;
   color: #fff;
-  margin-top: 35px;
-  background-color: #ec5242;
-  padding: 25px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 #programs {
@@ -200,6 +192,15 @@ main {
   width: 50px;
   border-top: #ec5242 2px solid;
   margin-bottom: 30px;
+}
+
+#main-anchor {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  margin-top: 35px;
+  background-color: #ec5242;
+  padding: 25px;
+  margin-bottom: 35px;
 }
 
 /* Footer */
@@ -312,6 +313,7 @@ footer {
   font-weight: 600;
   color: #272a31;
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Logo */
@@ -386,9 +388,9 @@ footer {
   margin-top: 25px;
 }
 
-/*
--------------------DESKTOP VERSION-------------------
-*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------DESKTOP VERSION----------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
   main {
     margin-top: 115px;
@@ -515,6 +517,7 @@ footer {
   /* Main program */
   #main-program {
     padding: 35px;
+    padding-bottom: 66px;
   }
   #programs {
     -webkit-box-orient: horizontal;
@@ -528,6 +531,7 @@ footer {
             justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-bottom: 50px;
   }
   #programs div {
     -webkit-box-orient: vertical;
@@ -567,6 +571,14 @@ footer {
     height: 88px;
     width: 90%;
     text-align: center;
+  }
+  #main-anchor-desktop {
+    font-family: Lato, sans-serif;
+    color: #fff;
+  }
+  .underline {
+    width: 203px;
+    margin: 0;
   }
   /* Footer */
   #partners {

@@ -115,17 +115,9 @@ main {
   padding: 15px;
 
   h2 {
-    color: #fff;
-    margin-bottom: 10px;
-  }
-
-  a {
     font-family: $lato;
     color: #fff;
-    margin-top: 35px;
-    background-color: #ec5242;
-    padding: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
   }
 }
 
@@ -173,6 +165,15 @@ main {
   width: 50px;
   border-top: $orange 2px solid;
   margin-bottom: 30px;
+}
+
+#main-anchor {
+  font-family: $lato;
+  color: #fff;
+  margin-top: 35px;
+  background-color: #ec5242;
+  padding: 25px;
+  margin-bottom: 35px;
 }
 
 /* Footer */
@@ -252,6 +253,7 @@ footer {
     font-weight: 600;
     color: $black;
     text-decoration: underline;
+    text-underline-offset: 2px;
   }
 }
 
@@ -313,9 +315,9 @@ footer {
   }
 }
 
-/*
--------------------DESKTOP VERSION-------------------
-*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------DESKTOP VERSION----------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
   main {
     margin-top: 115px;
@@ -432,6 +434,7 @@ footer {
 /* Main program */
 #main-program {
   padding: 35px;
+  padding-bottom: 66px;
 }
 
 #programs {
@@ -440,6 +443,7 @@ footer {
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 
   div {
     flex-direction: column;
@@ -477,6 +481,16 @@ footer {
       text-align: center;
     }
   }
+}
+
+#main-anchor-desktop {
+  font-family: $lato;
+  color: #fff;
+}
+
+.underline {
+  width: 203px;
+  margin: 0;
 }
 
 /* Footer */
