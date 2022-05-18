@@ -15,6 +15,7 @@ $lato: Lato, sans-serif;
 body {
   margin: 0;
   padding: 0;
+
   a {
     text-decoration: none;
   }
@@ -153,7 +154,7 @@ main {
     }
 
     p {
-      font-size: 16px;
+      font-size: 13.5px;
       line-height: 20px;
       color: $lightGrey;
       padding-right: 8px;
@@ -311,6 +312,7 @@ footer {
 
     img {
       padding: 25px;
+      width: 100%;
     }
   }
   
@@ -337,8 +339,26 @@ footer {
     margin-top: -15px;
   }
 
-  img {
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     margin-top: 25px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    a img{
+      height: 250px;
+      width: 90%;
+      filter: $orange(50%) ;
+    }
   }
 }
 
@@ -488,6 +508,7 @@ footer {
     }
 
     img {
+      margin-top: 15px;
       min-width: auto;
       max-width: auto;
     }
@@ -501,6 +522,7 @@ footer {
     }
 
     p {
+      font-size: 16px;
       margin-top: 0;
       margin-bottom: 0;
       height: 88px;
