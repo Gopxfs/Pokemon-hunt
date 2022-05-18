@@ -35,6 +35,21 @@ body {
   background-color: #fff;
 }
 
+#navbar.active {
+  background-color: $black;
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    background-color: $black;
+    
+    li a {
+      font-family: $lato;
+      color: #fff;
+    }
+  }
+}
+
 #hamburger {
   border: 0;
   margin: 10px;
