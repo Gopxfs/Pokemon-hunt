@@ -657,5 +657,14 @@ footer {
     min-width: 650px;
     width: 50%;
   }
+  #past-events div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 820px;
+    gap: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

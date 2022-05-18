@@ -354,7 +354,7 @@ footer {
       width: 100%;
     }
 
-    a img{
+    a img {
       height: 250px;
       width: 90%;
       filter: $orange(50%) ;
@@ -557,4 +557,14 @@ footer {
   min-width: 650px;
   width: 50%;
 }
+
+#past-events {
+  div {
+    flex-direction: row;
+    width: 100%;
+    max-width: 820px;
+    gap: 0;
+  }
+}
+
 }
