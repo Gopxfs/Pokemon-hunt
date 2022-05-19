@@ -10,6 +10,9 @@
 ## Live Demo
 [Live Demo](https://gopxfs.github.io/Pokemon-hunt/)
 
+## Brief introduction
+Watch this [video](https://www.loom.com/share/7fb69b25b7654ffa9a066375c831fb6d) introducing my website.
+
 ## Getting Started:
 To access and change the code on your computer:
 ### Setup
