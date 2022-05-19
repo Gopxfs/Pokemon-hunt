@@ -83,13 +83,3 @@ for (let i = 0; i < 6; i += 1) {
   starAbout[i].innerHTML = starData[i].about;
   starDescription[i].innerHTML = starData[i].description;
   }
-
-// Creating a function to toggle the mobile menu
-const hamburger = document.getElementById('hamburger');
-const hamburgerImage = document.getElementById('hamburger-image');
-const navbar = document.getElementById('navbar');
-function toggleMenu() {
-  
-  navbar.classList.toggle('active');
-}
-hamburger.addEventListener('click', toggleMenu);
