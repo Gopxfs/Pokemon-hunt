@@ -37,7 +37,7 @@ const starData = [
     description: 'Electric-type pokemon and Pokemon biggest star.',
   },
   {
-    name: 'Cynthiaa',
+    name: 'Cynthia',
     image: 'Assets/images/featured-stars/cynthia.png',
     about: 'Pokemon trainer, champion and archeologist',
     description: 'One of the greatest trainers of all time, champion of the Sinnoh League.',
