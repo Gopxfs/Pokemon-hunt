@@ -34,8 +34,8 @@ Microverse, for the structure to let me learn more.
 
 ## Copyrights
 This template was inspired by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
- and is under [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/).
-Some icons used in this project were acquired at [Flaticon](https://www.flaticon.com/).
+ and is under [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/).<br>
+Some icons used in this project were acquired at [Flaticon](https://www.flaticon.com/).<br>
 The COCOGOOSE font was acquired at [Online Web Fonts](https://www.onlinewebfonts.com/download/d14035f6b1afeabafbee4abb2ebf0fc6).
 
 ## :pencil: License
