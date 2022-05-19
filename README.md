@@ -8,7 +8,7 @@
 - JavaScript
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://gopxfs.github.io/Pokemon-hunt/)
 
 ## Getting Started:
 To access and change the code on your computer:
