@@ -1,5 +1,5 @@
 // Creating featured stars section elements
-const featuredStars = document.getElementById('featured-stars')
+const featuredStars = document.getElementById('featured-stars');
 const featuredTitle = document.createElement('h2');
 const orangeLine = document.createElement('span');
 const starSection = document.createElement('div');
@@ -34,7 +34,7 @@ const starData = [
     name: 'Pikachu',
     image: '/Assets/images/featured-stars/pikachu.png',
     about: 'Pokemon',
-    description: `Electric-type pokemon and Pokemon's biggest star.`,
+    description: 'Electric-type pokemon and Pokemon biggest star.',
   },
   {
     name: 'Cynthia',
@@ -73,13 +73,13 @@ for (let i = 0; i < 6; i += 1) {
   starSection.appendChild(starDiv[i]);
   starDiv[i].appendChild(starImage[i]);
   starDiv[i].appendChild(starInformation[i]);
-  starInformation[i].appendChild(starName[i]); 
-  starInformation[i].appendChild(starAbout[i]); 
-  starInformation[i].appendChild(starLine[i]); 
+  starInformation[i].appendChild(starName[i]);
+  starInformation[i].appendChild(starAbout[i]);
+  starInformation[i].appendChild(starLine[i]);
   starInformation[i].appendChild(starDescription[i]);
   // Assigning data
   starImage[i].src = starData[i].image;
   starName[i].innerHTML = starData[i].name;
   starAbout[i].innerHTML = starData[i].about;
   starDescription[i].innerHTML = starData[i].description;
-  }
+}

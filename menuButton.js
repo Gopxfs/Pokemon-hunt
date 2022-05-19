@@ -8,7 +8,7 @@ function toggleMenu() {
     hamburgerImage.src = 'Assets/images/icons/close-button.png';
     isTheMenuActive = true;
   } else {
-    hamburgerImage.src = 'Assets/images/icons/hamburger.png'
+    hamburgerImage.src = 'Assets/images/icons/hamburger.png';
     isTheMenuActive = false;
   }
   navbar.classList.toggle('active');
