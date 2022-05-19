@@ -66,6 +66,11 @@ body a {
   margin-left: 0;
 }
 
+#navbar.active ul #navbar-project {
+  padding: 8px;
+  border: #ec5242 5px solid;
+}
+
 #hamburger {
   border: 0;
   margin: 10px;
