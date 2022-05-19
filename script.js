@@ -58,7 +58,7 @@ const starData = [
 // A for loop to set star elements i times
 for (let i = 0; i < 6; i += 1) {
   // Creating
-  starDiv[i] = document.createElement('div');
+  starDiv[i] = document.createElement('article');
   starImage[i] = document.createElement('img');
   starInformation[i] = document.createElement('div');
   starName[i] = document.createElement('h3');

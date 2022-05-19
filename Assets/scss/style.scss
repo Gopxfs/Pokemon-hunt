@@ -132,7 +132,7 @@ main {
 
 #about-copyright {
   background-color: $black;
-  margin: 0;
+  margin: 0 !important;
   padding: 50px;
 
   p {
@@ -319,7 +319,7 @@ main {
     display: flex;
     flex-direction: column;
 
-    div {
+    article {
       display: flex;
       flex-direction: row;
       background: url(/Assets/images/featured-stars/pokeball-background.png);
@@ -730,7 +730,7 @@ footer {
       display: grid;
       grid-template-columns: 1fr 1fr;
 
-      div {
+      article {
         max-width: 450px;
         background: url(/Assets/images/featured-stars/pokeball-background-thin.png);
         background-size: 50px 50px;
