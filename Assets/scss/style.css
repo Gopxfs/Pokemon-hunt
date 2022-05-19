@@ -39,6 +39,10 @@ body a {
   background-color: #272a31;
 }
 
+#navbar.active #hamburger img {
+  height: 22px;
+}
+
 #navbar.active ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,12 +51,19 @@ body a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  list-style-type: none;
+  gap: 22px;
   background-color: #272a31;
+  padding: 0;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 #navbar.active ul li a {
   font-family: Lato, sans-serif;
+  font-size: 22px;
   color: #fff;
+  margin-left: 0;
 }
 
 #hamburger {

@@ -38,14 +38,27 @@ body {
 #navbar.active {
   background-color: $black;
   
+  #hamburger {
+    img {
+      height: 22px;
+    }
+  }
+
   ul {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    gap: 22px;
     background-color: $black;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 20px;
     
     li a {
       font-family: $lato;
+      font-size: 22px;
       color: #fff;
+      margin-left: 0;
     }
   }
 }
