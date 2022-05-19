@@ -35,12 +35,65 @@ body a {
   background-color: #fff;
 }
 
+@-webkit-keyframes orange-to-brown {
+  0% {
+    border-color: #ec5242;
+  }
+  25% {
+    border-color: #ecb042;
+  }
+  50% {
+    border-color: #ec5242;
+  }
+  75% {
+    border-color: #e72020;
+  }
+  100% {
+    border-color: #ec5242;
+  }
+}
+
+@keyframes orange-to-brown {
+  0% {
+    border-color: #ec5242;
+  }
+  25% {
+    border-color: #ecb042;
+  }
+  50% {
+    border-color: #ec5242;
+  }
+  75% {
+    border-color: #e72020;
+  }
+  100% {
+    border-color: #ec5242;
+  }
+}
+
+#navbar li a:hover {
+  color: #ec5242;
+}
+
+#navbar #navbar-project:hover {
+  -webkit-animation-name: orange-to-brown;
+          animation-name: orange-to-brown;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 #navbar.active {
   background-color: #272a31;
 }
 
 #navbar.active #hamburger img {
   height: 22px;
+}
+
+#navbar.active #hamburger img:hover {
+  background-color: #ec5242;
 }
 
 #navbar.active ul {
@@ -64,6 +117,10 @@ body a {
   font-size: 22px;
   color: #fff;
   margin-left: 0;
+}
+
+#navbar.active ul li a:hover {
+  color: #ec5242;
 }
 
 #navbar.active ul #navbar-project {
@@ -222,6 +279,10 @@ main {
   line-height: 20px;
   color: #d3d3d3;
   padding-right: 8px;
+}
+
+#programs div:hover {
+  border: #d3d3d3 1px solid;
 }
 
 .orange-line {
@@ -587,8 +648,11 @@ footer {
 #past-events div a img {
   height: 250px;
   width: 90%;
-  -webkit-filter: #ec5242 50%;
-          filter: #ec5242 50%;
+}
+
+#past-events div a img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 #about-copyright {
@@ -648,6 +712,9 @@ footer {
     font-family: Lato, sans-serif;
     color: #fff;
     text-decoration: none;
+  }
+  #header ul li a:hover {
+    color: #ec5242;
   }
   #navbar {
     display: -webkit-box;

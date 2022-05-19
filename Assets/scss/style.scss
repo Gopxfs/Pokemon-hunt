@@ -35,12 +35,36 @@ body {
   background-color: #fff;
 }
 
+@keyframes orange-to-brown {
+  0% { border-color: $orange };
+  25% { border-color: #ecb042 };
+  50% { border-color: #ec5242 };
+  75% { border-color: #e72020 };
+  100% { border-color: $orange};
+}
+
+#navbar {
+  li a:hover {
+    color: $orange;
+  }
+
+  #navbar-project:hover {
+    animation-name: orange-to-brown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+}
+
 #navbar.active {
   background-color: $black;
   
   #hamburger {
     img {
       height: 22px;
+    }
+
+    img:hover {
+      background-color: $orange;
     }
   }
 
@@ -61,6 +85,10 @@ body {
       margin-left: 0;
     }
 
+    li a:hover {
+      color: $orange;
+    }
+    
     #navbar-project {
       padding: 8px;
       border: $orange 5px solid;
@@ -192,6 +220,10 @@ main {
       color: $lightGrey;
       padding-right: 8px;
     }
+  }
+
+  div:hover {
+    border: $lightGrey 1px solid;
   }
 }
 
@@ -471,7 +503,10 @@ footer {
     a img {
       height: 250px;
       width: 90%;
-      filter: $orange(50%) ;
+    }
+
+    a img:hover {
+      filter: grayscale(100%);
     }
   }
 }
@@ -524,6 +559,10 @@ footer {
       font-family: $lato;
       color: #fff;
       text-decoration: none;
+    }
+
+    li a:hover {
+      color: $orange;
     }
   }
 }
