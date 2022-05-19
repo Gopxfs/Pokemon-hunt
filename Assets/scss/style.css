@@ -300,6 +300,10 @@ main {
   margin-bottom: 35px;
 }
 
+#main-anchor:hover {
+  background-color: #e72020;
+}
+
 /* Featured stars */
 #featured-stars {
   display: -webkit-box;
@@ -461,6 +465,11 @@ footer {
 
 #partners ul li a img {
   height: 75px;
+}
+
+#partners ul li a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #copyright,

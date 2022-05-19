@@ -88,7 +88,7 @@ body {
     li a:hover {
       color: $orange;
     }
-    
+
     #navbar-project {
       padding: 8px;
       border: $orange 5px solid;
@@ -242,6 +242,10 @@ main {
   margin-bottom: 35px;
 }
 
+#main-anchor:hover {
+  background-color: #e72020;
+}
+
 /* Featured stars */
 #featured-stars {
   display: flex;
@@ -356,6 +360,10 @@ footer {
 
       img {
         height: 75px;
+      }
+
+      img:hover {
+        transform: scale(1.1);
       }
     }
   }
