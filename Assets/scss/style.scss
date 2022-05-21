@@ -255,6 +255,8 @@ main {
     height: 100px;
     width: 95%;
     margin-bottom: 10px;
+    border: 1px solid transparent;
+    transition: all 0.1s;
 
     * {
       font-family: $lato;
